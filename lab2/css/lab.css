@@ -1,0 +1,39 @@
+h1 {
+  color: orange;
+  font-size: 400%;
+  font-family: cursive;
+}
+p#houseplants {
+  color: cornflowerblue;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+h2 {
+  color: darkcyan;
+  font-size: 225%;
+  font-family: sans-serif;
+}
+p#cheese {
+  color: cornflowerblue;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+p#scooter {
+  color: cornflowerblue;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+p#four {
+  color: cornflowerblue;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+#content {
+  background-color: ivory;
+  width: 1500px;
+  min-height: 1500px;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px #333333;
+  font-size: 20px;
+}
