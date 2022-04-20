@@ -42,6 +42,7 @@ h4 {
   font-family: sans-serif;
 }
 .maz {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
