@@ -3,10 +3,10 @@
  *
  * Description. (Our lab pseudocodes the game rock, paper, scissors.)
  *
- * @link   URL
- * @file   This files defines the MyClass class.
+ * @link   file:///Users/clairalind/Desktop/art101/lab4/index.htmls
+ * @file   art101lab4.
  * @author ClairaLind.
- * @since  x.x.x
+ * @since  04.18.22
  */
 
 /** jshint {inline configuration here} */
