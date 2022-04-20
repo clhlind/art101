@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+}
+title {
+  color: midnightblue;
+  font-size: 400%;
+  font-family: sans-serif;
+}
+h1 {
+  color: midnightblue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h2 {
+  color: midnightblue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h3 {
+  color: midnightblue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h4 {
+  color: midnightblue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+#lab {
+  color: midnightblue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+#problems {
+  color: midnightblue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+#results {
+  color: midnightblue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+.maz {
+  margin-left: auto;
+  margin-right: auto;
+}
