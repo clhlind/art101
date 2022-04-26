@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+title {
+  color: midnightblue;
+  font-size: 400%;
+  font-family: sans-serif;
+}
+h1 {
+  color: blue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h2 {
+  color: blue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h3 {
+  color: blue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+h4 {
+  color: blue;
+  font-size: 200%;
+  font-family: sans-serif;
+}
+#hi {
+  color: blue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+#wu {
+  color: blue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+#nm {
+  color: blue;
+  font-size: 150%;
+  font-family: sans-serif;
+}
