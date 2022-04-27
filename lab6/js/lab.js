@@ -8,10 +8,10 @@
  myTransport = ["Mazda CX5", "cruiser bike", "walk", "rides from boyfriend"];
 
  myMainRide = {
-   make: "Mazda",
-   model: "CX5",
-   color: "navy",
-   year: 2015,
+   make : "Mazda",
+   model : "CX5",
+   color : "navy",
+   year : 2015,
    age : function() {
      return 2022 - age;
    }
