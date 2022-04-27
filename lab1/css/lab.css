@@ -1,0 +1,34 @@
+#content {
+  background-color: ivory;
+  width: 1325px;
+  min-height: 1500px;
+  padding: 20px;
+}
+  h1 {
+    color: hotpink;
+    font-size: 400%;
+    font-family: "times new roman";
+  }
+  h2 {
+    color: orange;
+    font-size: 300%;
+    font-family: "times new roman";
+  }
+  p#flower {
+    color: black;
+    font-size: 150%;
+    font-family: "times new roman";
+  }
+  img {
+    width: 500px;
+  }
+  h3 {
+    color: olive;
+    font-size: 300%;
+    font-family: "times new roman"
+  }
+  li {
+    color: black;
+    font-size: 150%;
+    font-family: "times new roman";
+  }
