@@ -1,0 +1,63 @@
+body {
+  background-color: lavendar;
+}
+h1 {
+  color: palevioletred;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  color: palevioletred;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  color: palevioletred;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h4 {
+  color: palevioletred;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#hi {
+  color: mediumvioletred;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#wu {
+  color: mediumvioletred;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#nm {
+  color: mediumvioletred;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.flower {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  size: 100px;
+}
+#up {
+  color: mediumvioletred;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.script {
+  background-color: hotpink;
+  height: 300px;
+  width: 1440px;
+}
