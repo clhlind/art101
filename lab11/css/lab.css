@@ -1,0 +1,57 @@
+body {
+  background-color: seashell;
+}
+h1 {
+  color: teal;
+  font-size: 500%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#intro {
+  background-color: pink;
+  height: 700px;
+  width: 1425px;
+  align-content: center;
+}
+h2 {
+  color: teal;
+  font-size: 300%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  color: teal;
+  font-size: 300%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h4 {
+  color: teal;
+  font-size: 300%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#toggle-text1 {
+  color: gray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#toggle-text2 {
+  color: gray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#toggle-text3 {
+  color: gray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#up {
+  color: gray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
