@@ -1,0 +1,67 @@
+.content {
+  background-color: seashell;
+}
+.b {
+  background-color: lightgray;
+  height: 300px;
+  width: 1200px;
+  align-content: center;
+}
+.c {
+  background-color: lightgray;
+  height: 300px;
+  width: 1200px;
+}
+.d {
+  background-color: lightgray;
+  height: 300px;
+  width: 1200px;
+}
+title {
+  color: seagreen;
+font-size: 400%;
+font-family: sans-serif;
+text-align: center;
+}
+h1 {
+  color: seagreen;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  color: seagreen;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  color: seagreen;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h4 {
+  color: seagreen;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#hi {
+  color: darkslategray;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#wu {
+  color: darkslategray;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#nm {
+  color: darkslategray;
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: center;
+}
