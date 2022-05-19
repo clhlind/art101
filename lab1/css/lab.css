@@ -8,17 +8,19 @@
     color: hotpink;
     font-size: 400%;
     font-family: "times new roman";
-    display content: center
+    text-align: center;
   }
   h2 {
     color: orange;
     font-size: 300%;
     font-family: "times new roman";
+    text-align: center;
   }
   p#about {
     color: black;
-    font-size: 150%;
+    font-size: 200%;
     font-family: "times new roman";
+    text-align: center;
   }
   img {
     width: 500px;
