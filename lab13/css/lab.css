@@ -1,0 +1,51 @@
+.content {
+  background-color: papayawhip;
+  height: 500px;
+  width: 1425px;
+  align-content: center;
+}
+.output {
+  background-color: papayawhip;
+}
+h1 {
+  color: pink;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h2 {
+  color: pink;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  color: pink;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+h4 {
+  color: pink;
+  font-size: 400%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#hi {
+  color: darkslategray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#hey {
+  color: darkslategray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#sup {
+  color: darkslategray;
+  font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
