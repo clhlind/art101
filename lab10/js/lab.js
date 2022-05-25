@@ -22,9 +22,7 @@
    }
    //Get the user's inout
    //Call the function and add the user input
-   var outputel= document.getElementById("name").value;
-   document.getElementById("output4").innerHTML=("See! Your name is cooler now <b>"+nameSorter(name)+"</b<br>");
+   var userName = document.getElementById("name").value;
+   document.getElementById("output4").innerHTML=("See! Your name is cooler now <b>"+nameSorter(userName)+"</b<br>");
 
    console.log(nameSorter(name));
-
-console.log(nameSorter(username));
