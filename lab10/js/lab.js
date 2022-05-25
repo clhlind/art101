@@ -8,11 +8,11 @@
  //for this function we are going to sort letters in someone's name
  function nameSorter(x){
    //using the user's input, add a little comment
-   document.getElementById("output").innerHTML="<br>"+x+"</br> That's a cool name, I guess. <br>";
-   documenr.getElementById("output1").innerHTML=("I'm going to switch the letters in your name, deal with it.<br>");
+   document.getElementById("output").innerHTML="<br>"+ x +"</br> That's a cool name, I guess. <br>";
+   document.getElementById("output1").innerHTML=("I'm going to switch the letters in your name, deal with it.<br>");
    //start by making the name into an array and printing out the result
    var split = x.split('');
-   document.getElementById("output2").innerHTML=("First, we'll split up the letters in your name: <b>"+split+" </b><br>");
+   document.getElementById("output2").innerHTML=("First, we'll split up the letters in your name <br> "+ split +" </b></br>");
    //then we sort the stings in that array and join them
    split.sort();
    var joined = split. join('');
@@ -21,7 +21,10 @@
    return joined;
    }
    //Get the user's inout
-   var userName = window.prompt ("What's your name?");
    //Call the function and add the user input
-   var outputel= document.getElementById("output")
-   document.getElementById('output4').innerHTML=("See! Your name is cooler now <b>"+nameSorter(name)+"</b<br>");
+   var outputel= document.getElementById("name").value;
+   document.getElementById("output4").innerHTML=("See! Your name is cooler now <b>"+nameSorter(name)+"</b<br>");
+
+   console.log(nameSorter(name));
+
+console.log(nameSorter(username));
