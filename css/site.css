@@ -4,30 +4,30 @@
   min-height: 1500px;
   padding: 20px;
 }
-  h1 {
+h1 {
     color: hotpink;
     font-size: 400%;
     font-family: "times new roman";
   }
-  h2 {
+h2 {
     color: orange;
     font-size: 300%;
     font-family: "times new roman";
   }
-  p#flower {
+#about {
     color: black;
     font-size: 150%;
     font-family: "times new roman";
   }
-  img#my-portrait {
+#me {
     width: 500px;
   }
-  h3 {
+h3 {
     color: olive;
     font-size: 300%;
     font-family: "times new roman"
   }
-  li {
+li {
     color: black;
     font-size: 150%;
     font-family: "times new roman";
