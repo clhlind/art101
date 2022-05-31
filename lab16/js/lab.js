@@ -24,7 +24,7 @@ var alt = firstAPOD.explanation;
 var img = firstAPOD.url;
 console.log(title, alt, img);
 $("#output").html("<h5>" + title + "<h5>");
-$("#output").append("<img scr='" + img + "'>");
+$("#output").append("<img src='" + img + "'>");
 $("#output").append("<p>" + alt + "</p>");
   })
   .fail(function(request,error){

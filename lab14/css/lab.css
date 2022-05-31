@@ -1,34 +1,29 @@
 .content {
-  background-color: papayawhip;
-  height: 200px;
+  background-color: lightblue;
+  height: 500px;
   width: 1425px;
   align-content: center;
 }
-.output {
-  background-color: white;
-  height: 200px;
-  width: 1200px;
-}
 h1 {
-  color: pink;
+  color: Teal;
   font-size: 400%;
   font-family: sans-serif;
   text-align: center;
 }
 h2 {
-  color: pink;
+  color: Teal;
   font-size: 400%;
   font-family: sans-serif;
   text-align: center;
 }
 h3 {
-  color: pink;
+  color: Teal;
   font-size: 400%;
   font-family: sans-serif;
   text-align: center;
 }
 h4 {
-  color: pink;
+  color: Teal;
   font-size: 400%;
   font-family: sans-serif;
   text-align: center;
@@ -48,6 +43,12 @@ h4 {
 #sup {
   color: darkslategray;
   font-size: 200%;
+  font-family: sans-serif;
+  text-align: center;
+}
+#hello {
+  color: darkslategray;
+  font-size: 50%;
   font-family: sans-serif;
   text-align: center;
 }

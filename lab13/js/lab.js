@@ -6,30 +6,66 @@
  **/
  //loops
  //given a number and an object that looks like this:
- //   {3: "Fizz", 5: "Buzz", 7: "Boom"}
-    console.log("yes my function is running")
- // loops over the numbers and outputs the number and the matching text
- // for factors
- function fizzBuzzBoom() {
-    console.log("yes my function is running")
- // iterate over all of out numbers
- for (var i=1; i<=200; i++) {
- // reset output string
- var str = '';
- // iterate over the factors we got from the html
- if (i % 3 == 0) {
- str += "Fizz";
-  }
-  if (i % 5 == 0) {
-  str += "Buzz";
-   }
-   if (i % 7 == 0) {
-   str += "Boom";
+ //{3: "Fizz", 5: "Buzz", 7: "Boom"}
+ function mod(total, valOne, valTwo, valThr, valFour){
+  var a ="Fizz!";
+  var b ="Buzz!";
+  var c ="Boom!";
+  var d ="Bang!";
+
+  var str = "";
+  for(let i = 0; i <= total ;i++){
+    if ((i % valOne == 0)&&(i % valTwo == 0)&&(i % valThr == 0)&&(i % valFour == 0)){
+      str += (i +" "+a+b+c+d+"<br>");
+
+    } else if ((i % valOne == 0)&&(i % valTwo == 0)&&(i % valThr == 0)){
+      str += (i +" "+a+b+c+"<br>");
+    } else if ((i % valOne == 0)&&(i % valTwo == 0)&&(i % valFour == 0)){
+      str += (i +" "+a+b+d+"<br>");
+    } else if ((i % valOne == 0)&&(i % valThr == 0)&&(i % valFour == 0)){
+      str += (i +" "+a+c+d+"<br>");
+    } else if ((i % valTwo == 0)&&(i % valThr == 0)&&(i % valFour == 0)){
+      str += (i +" "+b+c+d+"<br>");
+
+    } else if ((i % valOne == 0)&&(i % valTwo == 0)){
+      str += (i +" "+a+b+"<br>");
+    } else if ((i % valOne == 0)&&(i % valThr == 0)){
+      str += (i +" "+a+c+"<br>");
+    } else if ((i % valOne == 0)&&(i % valFour == 0)){
+      str += (i +" "+a+d+"<br>");
+    } else if ((i % valTwo == 0)&&(i % valThr == 0)){
+      str += (i +" "+b+c+"<br>");
+    } else if ((i % valTwo == 0)&&(i % valFour == 0)){
+      str += (i +" "+b+d+"<br>");
+    } else if ((i % valThr == 0)&&(i % valFour == 0)){
+      str += (i +" "+c+d+"<br>");
+
+    } else if (i % valOne == 0){
+      str += (i +" "+a+"<br>");
+    } else if (i % valTwo == 0){
+      str += (i +" "+b+"<br>");
+    } else if (i % valThr == 0){
+      str += (i +" "+c+"<br>");
+    } else if (i % valFour == 0){
+      str += (i +" "+d+"<br>");
+
+    } else {
+      str += (i+"<br>");
     }
- if (str =='') {
- str += i;
-}
- $("output").append("<p>" + str + "</p>")
   }
+  return str;
 }
-fizzBuzzBoom();
+
+outputEl = $("#output");
+submitEl = $("#submit");
+
+submitEl.click(function(){
+  totalEl  = $("#total").val();
+  valOneEl = $("#valOne").val();
+  valTwoEl = $("#valTwo").val();
+  valThrEl = $("#valThr").val();
+  valFourEl= $("#valFour").val();
+
+  console.log(totalEl);
+  outputEl.html(mod(totalEl, valOneEl, valTwoEl, valThrEl, valFourEl));
+})
