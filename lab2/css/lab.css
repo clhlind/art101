@@ -3,7 +3,7 @@ h1 {
   font-size: 400%;
   font-family: cursive;
 }
-p#houseplants {
+p#plant {
   color: cornflowerblue;
   font-size: 125%;
   font-family: sans-serif;
@@ -36,4 +36,10 @@ p#four {
   margin: 20px;
   border: solid 1px #333333;
   font-size: 20px;
+}
+
+.plant {
+  width:480px;
+  height: auto;
+
 }
