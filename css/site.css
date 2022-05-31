@@ -1,5 +1,5 @@
 #content {
-  background-color: ivory;
+  background-color: lightpink;
   width: 1325px;
   min-height: 1500px;
   padding: 20px;
@@ -8,24 +8,29 @@ h1 {
     color: hotpink;
     font-size: 400%;
     font-family: "times new roman";
+    text-align: center;
   }
 h2 {
     color: orange;
     font-size: 300%;
     font-family: "times new roman";
+    text-align: center;
   }
 #about {
     color: black;
     font-size: 150%;
     font-family: "times new roman";
+    text-align: center;
   }
 #me {
     width: 500px;
+    align-content: center;
   }
 h3 {
     color: olive;
     font-size: 300%;
     font-family: "times new roman"
+    text-align: center;
   }
 li {
     color: black;
